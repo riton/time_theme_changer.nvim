@@ -4,7 +4,7 @@ local function hour_to_colorscheme()
   local hour = tonumber(os.date("%H"))
 
   local scheme_mode = "dark"
-  if hour >= 8 and hour <= 19
+  if hour >= 8 and hour < 19
   then
     scheme_mode = "light"
   end
