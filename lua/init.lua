@@ -12,7 +12,7 @@ local function hour_to_colorscheme()
   local colorscheme = "catppuccin-mocha"
   if scheme_mode == "dark"
   then
-    colorscheme = "tokyonight-night"
+    colorscheme = "carbonfox"
   end
 
   -- print("Setting colorscheme to ", colorscheme, ", hour is ", hour)
